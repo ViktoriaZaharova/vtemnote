@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Прятки “Втемноте”
+        Квест-игра в реальности </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+<div class="mobile-menu">
+    <a href="#games" class="go_to">
+        <span class="icon"><img src="img/icon-menu1.png" alt=""></span><span class="text">Наши игры</span>
+    </a>
+    <a href="#gallery" class="go_to">
+        <span class="icon"><img src="img/icon-menu2.png" alt=""></span><span class="text">Галерея</span>
+    </a>
+    <a href="#games" class="go_to">
+        <span class="icon"><img src="img/icon-menu3.png" alt=""></span><span class="text">Стоимость</span>
+    </a>
+    <a href="#contacts" class="go_to">
+        <span class="icon"><img src="img/icon-menu4.png" alt=""></span><span class="text">Контакты</span>
+    </a>
+</div>
+
+<header>
+    <div class="container">
+        <a href="#games" class="links-menu go_to">Наши игры</a>
+        <a href="#gallery" class="links-menu go_to">Галерея</a>
+
+        <a href="#contacts" class="links-mobile go_to"><img src="img/location2.png" alt=""></a>
+        <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+        <a href="tel:+74992888275" class="links-mobile"><img src="img/phone.png" alt=""></a>
+
+        <a href="#price" class="links-menu go_to">Стоимость</a>
+        <a href="#contacts" class="links-menu go_to">Контакты</a>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <h1>Прятки <span>“Втемноте”</span></h1>
+        <div class="title-description">Квест-игра в реальности</div>
+
+        <a href="#" class="btn btn-accent">Запишись сейчас</a>
+    </div>
+</main>
+
+<section class="games" id="games">
+
+    <div class="container">
+        <h2>Наши игры</h2>
+
+        <div class="tabs">
+            <ul class="tabs__caption">
+                <li>Лазертаг</li>
+                <li class="active">Неоновые прятки</li>
+                <li>Квесты</li>
+            </ul>
+            <div class="tabs__content">
+                <div class="games-photo">
+                    <div class="games-photo__box"><img src="img/game1.png" alt=""></div>
+                    <div class="games-photo__box"><img src="img/game2.jpg" alt=""></div>
+                    <div class="games-photo__box"><img src="img/game4.png" alt=""></div>
+                </div>
+                <div class="games-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis. </p>
+                </div>
+            </div>
+            <div class="tabs__content active">
+                <div class="games-photo">
+                    <div class="games-photo__box"><img src="img/game2.jpg" alt=""></div>
+                    <div class="games-photo__box"><img src="img/game3.png" alt=""></div>
+                    <div class="games-photo__box"><img src="img/game4.png" alt=""></div>
+                </div>
+                <div class="games-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis. </p>
+                </div>
+            </div>
+            <div class="tabs__content">
+                <div class="games-photo">
+                    <div class="games-photo__box"><img src="img/game3.png" alt=""></div>
+                    <div class="games-photo__box"><img src="img/game4.png" alt=""></div>
+                    <div class="games-photo__box"><img src="img/game1.png" alt=""></div>
+                </div>
+                <div class="games-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="price" id="price">
+    <div class="container">
+        <h2><span>стоимость программ</span></h2>
+
+        <div class="price-wrapper">
+            <div class="price-slider mobile-slider">
+                <div class="slide">
+                    <div class="price-box">
+                        <div class="price-box__wrap">
+                            <div class="price-box__title">
+                                <h3>Стандартный</h3>
+                                <div class="time">1 час, 2 раунда игры</div>
+                            </div>
+
+                            <div class="price-box__hover">
+                                <div class="price-box__hover-top">
+                                    <div class="box">
+                                        <h4>Плюс</h4>
+                                        <span>переверни сознание</span>
+                                    </div>
+                                    <div class="box">
+                                        <h4>1490р</h4>
+                                        <span>с человека</span>
+                                    </div>
+                                </div>
+
+                                <div class="price-box__hover-center">
+                                    <ul>
+                                        <li>- Разнообразие игр: Прятки, Лазертаг и Квесты</li>
+                                        <li>- Возможность неонового освещения для дополнительных ощущений</li>
+                                        <li>- Увлекательная легенда с выбором сценария</li>
+                                        <li>- 3 и более персонажей в сценарии</li>
+                                        <li>- Тематические задания и головоломки</li>
+                                    </ul>
+                                </div>
+
+                                <div class="price-box__hover-bottom">
+                                    <ul>
+                                        <li>
+                                            <div class="icon"><img src="img/size-icon.png" alt=""></div>
+                                            <p>Площадь до 250кв.м</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/user-icon.png" alt=""></div>
+                                            <p>Профессиональные актеры</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/time-icon.png" alt=""></div>
+                                            <p>2.5 часа</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/coffe-icon.png" alt=""></div>
+                                            <p>Напитки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-accent">подробнее</a>
+                        <a href="#" class="btn btn-accent btn-hover">оставить заявку</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="price-box">
+                        <div class="price-box__wrap">
+                            <div class="price-box__title">
+                                <h3>Стандартный</h3>
+                                <div class="time">1 час, 2 раунда игры</div>
+                            </div>
+
+                            <div class="price-box__hover">
+                                <div class="price-box__hover-top">
+                                    <div class="box">
+                                        <h4>Плюс</h4>
+                                        <span>переверни сознание</span>
+                                    </div>
+                                    <div class="box">
+                                        <h4>1490р</h4>
+                                        <span>с человека</span>
+                                    </div>
+                                </div>
+
+                                <div class="price-box__hover-center">
+                                    <ul>
+                                        <li>- Разнообразие игр: Прятки, Лазертаг и Квесты</li>
+                                        <li>- Возможность неонового освещения для дополнительных ощущений</li>
+                                        <li>- Увлекательная легенда с выбором сценария</li>
+                                        <li>- 3 и более персонажей в сценарии</li>
+                                        <li>- Тематические задания и головоломки</li>
+                                    </ul>
+                                </div>
+
+                                <div class="price-box__hover-bottom">
+                                    <ul>
+                                        <li>
+                                            <div class="icon"><img src="img/size-icon.png" alt=""></div>
+                                            <p>Площадь до 250кв.м</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/user-icon.png" alt=""></div>
+                                            <p>Профессиональные актеры</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/time-icon.png" alt=""></div>
+                                            <p>2.5 часа</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/coffe-icon.png" alt=""></div>
+                                            <p>Напитки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-accent">подробнее</a>
+                        <a href="#" class="btn btn-accent btn-hover">оставить заявку</a>
+
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="price-box">
+                        <div class="price-box__wrap">
+                            <div class="price-box__title">
+                                <h3>Стандартный</h3>
+                                <div class="time">1 час, 2 раунда игры</div>
+                            </div>
+
+                            <div class="price-box__hover">
+                                <div class="price-box__hover-top">
+                                    <div class="box">
+                                        <h4>Плюс</h4>
+                                        <span>переверни сознание</span>
+                                    </div>
+                                    <div class="box">
+                                        <h4>1490р</h4>
+                                        <span>с человека</span>
+                                    </div>
+                                </div>
+
+                                <div class="price-box__hover-center">
+                                    <ul>
+                                        <li>- Разнообразие игр: Прятки, Лазертаг и Квесты</li>
+                                        <li>- Возможность неонового освещения для дополнительных ощущений</li>
+                                        <li>- Увлекательная легенда с выбором сценария</li>
+                                        <li>- 3 и более персонажей в сценарии</li>
+                                        <li>- Тематические задания и головоломки</li>
+                                    </ul>
+                                </div>
+
+                                <div class="price-box__hover-bottom">
+                                    <ul>
+                                        <li>
+                                            <div class="icon"><img src="img/size-icon.png" alt=""></div>
+                                            <p>Площадь до 250кв.м</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/user-icon.png" alt=""></div>
+                                            <p>Профессиональные актеры</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/time-icon.png" alt=""></div>
+                                            <p>2.5 часа</p>
+                                        </li>
+                                        <li>
+                                            <div class="icon"><img src="img/coffe-icon.png" alt=""></div>
+                                            <p>Напитки</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-accent btn-details">подробнее</a>
+                        <a href="#" class="btn btn-accent btn-hover">оставить заявку</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="price-wrapper__nav slider-nav"></div>
+
+            <a href="#" class="btn btn-accent btn-mobile">Запишись сейчас</a>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="stages-event">
+    <div class="container">
+        <h2>как проходит мероприятие</h2>
+        <div class="description">
+            <p>К назначенному времени гости приходят, переодеваются и располагаются в удобной велком зоне. Знакомятся с
+                ведущим, который расскажет правила игры и интсруктаж.</p>
+        </div>
+
+        <div class="stages-event__wrapper">
+            <div class="stages-event__wrapper2">
+                <div class="stages-event__box">
+                    <div class="line line1"><img src="img/line1.png" alt=""></div>
+                    <div class="line line2"><img src="img/line2.png" alt=""></div>
+                    <div class="line line3"><img src="img/line3.png" alt=""></div>
+
+                    <div class="time">60 минут пряток</div>
+                    <div class="text">
+                        <p>Самая популярная игра. Два раунда по 30 минут. Игроки делятся на две команды, получают
+                            защитную
+                            экипировку и начинается игра. Участники проходят в темный лабиринт, имеющий множество
+                            потайных
+                            ходов
+                            и
+                            ловушек, а также таинственных обитателей- сущностей.</p>
+                        <p>Те, кто прячутся, заходят в лабиринт первыми и у них есть несколько минут чтобы спрятаться.
+                            Далее
+                            заходит вторая команда, которая в темноте должна найти своих соперников.</p>
+                        <p>Через 30 минут игроки выходят и меняются ролями, чтобы каждый смог почувствовать на себе
+                            эмоции
+                            противника.</p>
+                        <p>Игра проходит в сопровождении с актерами, которые будут создавать настроение, давать
+                            различные
+                            задания,
+                            подсказки.</p>
+                    </div>
+                    <h3>Пакет Стандарт</h3>
+                </div>
+                <div class="stages-event__box">
+                    <div class="time">30 минут комнаты отдыха</div>
+                    <div class="text">
+                        <p>Самое время перевести дух. Дети с родителями проходят в комнату отдыха, которая будет заранее
+                            украшена и подготовлена. Закуски вы можете заказать у нас пиццу, фри и напитки. Либо же
+                            принести
+                            свои без дополнительного сбора. Необходимая посуда, чай, кофе, горячая и холодная вода уже
+                            есть
+                            в
+                            комнате.</p>
+                    </div>
+                    <div class="time">30 минут лазертага</div>
+                    <div class="text">
+                        <p>Ребятам расскажут правила игры, каждый получит лазерный пистолет с цветом команды и счетчиком
+                            жизней.
+                            Игра проходит при ярком неоновом свете, в разных режимах «Захват крепости»,«Схватка
+                            команд»</p>
+                    </div>
+                    <div class="time">30 минут комнаты отдыха</div>
+                    <div class="text">
+                        <p>Самое подходящее время для торжественной части. Поздравления именинника, чаепитие и сладости.
+                            Угощения могут быть свои, либо же у нас можно заказать тортик.</p>
+                    </div>
+                    <h3>Пакет Плюс</h3>
+                </div>
+            </div>
+            <div class="stages-event__box">
+                <div class="time">30 минут игры</div>
+                <div class="text">
+                    <p>Дополнительный раунд, во время которого ребята могут выбрать понравившуюся игру и поиграть снова.
+                        В
+                        это время родители смогут отдохнуть в комнате отдыха.</p>
+                </div>
+                <h3>Пакет Расширенный</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="about-video">
+    <div class="decor-img"><img src="img/decor8.png" alt=""></div>
+    <div class="container">
+        <h2>О нашем центре</h2>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/p2ueBVk7oo4"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<section class="bonus">
+    <div class="container">
+        <h2>наши бонусы</h2>
+
+        <div class="bonus-wrapper">
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon1.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>украшения</h3>
+                    <p>Шарики, гирлянды, красивая посуда</p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon2.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>все для удобства</h3>
+                    <p>Шкафчики для обуви и одежды, сменная обувь</p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon3.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>бесплатная парковка</h3>
+                    <p>Перед входом в ТЦ расположена парковка</p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon4.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>скидки</h3>
+                    <p>Для наших клиентов предусмотрены скидки </p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon5.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>продолжительность</h3>
+                    <p>От 2,5 часов. Комната отдыха во время и после игры - 2400р</p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon6.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>угощения</h3>
+                    <p>Можно у нас заказать: Пиццы, напитки, ТОРТ. Также можно принести все свое</p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon7.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>диванчики дляродителей</h3>
+                    <p>Место для комфортного ожидания родителям </p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon8.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>бесплатные<br>фотографии</h3>
+                    <p>Мы фотографируем все наши игры и с радостью поделимся с вами фото</p>
+                </div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-box__icon"><img src="img/bonus-icon9.png" alt=""></div>
+                <div class="bonus-box__text">
+                    <h3>для детей от 3 до 15лет</h3>
+                    <p>Мы играем в активные командные игры доступные каждому</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <div class="container">
+        <h2>наши гости</h2>
+
+        <div class="gallery-wrapper">
+            <a data-fancybox="gallery" class="gallery-box" href="img/photo1.jpg"><img src="img/photo1.jpg" alt=""></a>
+            <a data-fancybox="gallery" class="gallery-box" href="img/photo2.jpg"><img src="img/photo2.jpg" alt=""></a>
+            <a data-fancybox="gallery" class="gallery-box" href="img/photo3.jpg"><img src="img/photo3.jpg" alt=""></a>
+            <a data-fancybox="gallery" class="gallery-box" href="img/photo4.jpg"><img src="img/photo4.jpg" alt=""></a>
+            <a data-fancybox="gallery" class="gallery-box" href="img/photo5.jpg"><img src="img/photo5.jpg" alt=""></a>
+            <a data-fancybox="gallery" class="gallery-box" href="img/photo6.jpg"><img src="img/photo6.jpg" alt=""></a>
+        </div>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="container">
+        <h2>мамы о нас</h2>
+
+        <div class="reviews-wrapper">
+            <div class="reviews-slider mobile-slider">
+                <div class="slide">
+                    <div class="reviews-box">
+                        <div class="reviews-box__photo"><img src="img/ava.png" alt=""></div>
+
+                        <div class="reviews-box__text">
+                            <p>Спасибо большое за чудесный праздник!!! Детям все понравилось, остались в восторге!!!
+                                Интересно,
+                                нестандартно, необычно, волшебно!!! Спасибо</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="reviews-box">
+                        <div class="reviews-box__photo"><img src="img/ava.png" alt=""></div>
+
+                        <div class="reviews-box__text">
+                            <p>Спасибо большое за чудесный праздник!!! Детям все понравилось, остались в восторге!!!
+                                Интересно,
+                                нестандартно, необычно, волшебно!!! Спасибо</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="reviews-box">
+                        <div class="reviews-box__photo"><img src="img/ava.png" alt=""></div>
+
+                        <div class="reviews-box__text">
+                            <p>Спасибо большое за чудесный праздник!!! Детям все понравилось, остались в восторге!!!
+                                Интересно,
+                                нестандартно, необычно, волшебно!!! Спасибо</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="reviews-box">
+                        <div class="reviews-box__photo"><img src="img/ava.png" alt=""></div>
+
+                        <div class="reviews-box__text">
+                            <p>Спасибо большое за чудесный праздник!!! Детям все понравилось, остались в восторге!!!
+                                Интересно,
+                                нестандартно, необычно, волшебно!!! Спасибо</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="reviews-box">
+                        <div class="reviews-box__photo"><img src="img/ava.png" alt=""></div>
+
+                        <div class="reviews-box__text">
+                            <p>Спасибо большое за чудесный праздник!!! Детям все понравилось, остались в восторге!!!
+                                Интересно,
+                                нестандартно, необычно, волшебно!!! Спасибо</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="reviews-box">
+                        <div class="reviews-box__photo"><img src="img/ava.png" alt=""></div>
+
+                        <div class="reviews-box__text">
+                            <p>Спасибо большое за чудесный праздник!!! Детям все понравилось, остались в восторге!!!
+                                Интересно,
+                                нестандартно, необычно, волшебно!!! Спасибо</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-slider__nav slider-nav"></div>
+        </div>
+    </div>
+</section>
+
+<section class="reservation about-video">
+    <div class="container">
+        <h2>бесплатное бронирование</h2>
+
+        <div class="reservation-box">
+            <!-- Bookform widget -->
+            <script>(function (w, d, s, o, f, js, fjs) {
+                w['BookformObject'] = o;
+                w[o] = w[o] || function () {
+                    (w[o].q = w[o].q || []).push(arguments)
+                };
+                js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                js.id = o;
+                js.src = f;
+                js.async = 1;
+                fjs.parentNode.insertBefore(js, fjs);
+            }(window, document, 'script', 'Bookform', 'https://widget.bookform.ru/2933/js'));</script>
+            <!-- End Bookform widget -->
+            <div id="bookform-embedded-widget-2933"></div>
+            <script>Bookform('embedded', {id: 2933});</script>
+            <style type="text/css">
+                #bookform-embedded-widget-2933 {
+                    height: 100%
+                }
+
+                .bookform-widget-embedded__wrapper {
+                    height: 100% !important
+                }
+            </style>
+        </div>
+    </div>
+</section>
+
+<section class="options">
+    <div class="container">
+        <h2>добавьте к празднику</h2>
+
+        <div class="options-wrapper">
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option1.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>Дополнительный<br>раунд игры</h3>
+                    <p>390 рублей за ребенка</p>
+                </div>
+            </div>
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option2.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>Наш аниматорв костюме любого героя</h3>
+                    <p>3000 рублей за час</p>
+                </div>
+            </div>
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option3.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>торт 1.5 кг с украшением</h3>
+                    <p>3000 рублей за час</p>
+                </div>
+            </div>
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option4.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>пицца</h3>
+                    <p>1500 рублей за три средние пиццы</p>
+                </div>
+            </div>
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option5.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>шоу: химическое <br>
+                        или фокусы</h3>
+                    <p>6000 рублей</p>
+                </div>
+            </div>
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option6.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>квест “тайна<br>неоновой планеты”</h3>
+                    <p>390 рублей за ребенка</p>
+                </div>
+            </div>
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option7.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>дополнительный<br>
+                        час комнаты</h3>
+                    <p>900 рублей</p>
+                </div>
+            </div>
+            <div class="options-box">
+                <div class="options-box__icon"><img src="img/option8.png" alt=""></div>
+                <div class="options-box__text">
+                    <h3>сок</h3>
+                    <p>200 рублей за кувшин 1.5л. Яблочный или апельсиновый</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="scripts">
+    <div class="container">
+        <h2>дополнительные сценарии</h2>
+
+        <div class="scripts-wrapper">
+            <div class="scripts-slider mobile-slider">
+                <div class="slide"><div class="scripts-box">
+                    <div class="scripts-box__photo">
+                        <img src="img/scripts1.jpg" alt="">
+                        <div class="scripts-name">
+                            <h3>Психбольница</h3><span>поддайтесь безумию</span>
+                        </div>
+                    </div>
+
+                    <div class="scripts-box__content">
+                        <div class="text">
+                            <p>Игра, в которой грань между рассудком и сумасшествием стерта. Реальное погружение в театр
+                                абсурда, где психи повсюду, а логика отсутствует напрочь.</p>
+
+                            <ul>
+                                <li>- покрытые мраком, запутанные коридоры больницы</li>
+                                <li>- игру ведут реальные психи</li>
+                                <li>- настоящий выброс адреналина</li>
+                                <li>- звуковые спецэффекты</li>
+                                <li>- световые спецэффекты</li>
+                                <li>- выбор жанра (веселый, страшный, сумасшедший)</li>
+                                <li>- уютная зона отдыха после игры, чтобы прийти в себя</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="scripts-box__footer">
+                        <ul>
+                            <li>
+                                <div class="icon"><img src="img/size.png" alt=""></div>
+                                <p>60 минут игры</p>
+                            </li>
+                            <li>
+                                <div class="icon"><img src="img/user.png" alt=""></div>
+                                <p>От 3-ех психов в темноте</p>
+                            </li>
+                            <li>
+                                <div class="icon"><img src="img/time.png" alt=""></div>
+                                <p>Площадь до 250 кв.м</p>
+                            </li>
+                            <li>
+                                <div class="icon"><img src="img/house.png" alt=""></div>
+                                <p>Зона отдыха 30минут</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="btn btn-accent">оставить заявку</a>
+                </div></div>
+                <div class="slide"><div class="scripts-box">
+                    <div class="scripts-box__photo">
+                        <img src="img/scripts1.jpg" alt="">
+                        <div class="scripts-name">
+                            <h3>Психбольница</h3><span>поддайтесь безумию</span>
+                        </div>
+                    </div>
+
+                    <div class="scripts-box__content">
+                        <div class="text">
+                            <p>Игра, в которой грань между рассудком и сумасшествием стерта. Реальное погружение в театр
+                                абсурда, где психи повсюду, а логика отсутствует напрочь.</p>
+
+                            <ul>
+                                <li>- покрытые мраком, запутанные коридоры больницы</li>
+                                <li>- игру ведут реальные психи</li>
+                                <li>- настоящий выброс адреналина</li>
+                                <li>- звуковые спецэффекты</li>
+                                <li>- световые спецэффекты</li>
+                                <li>- выбор жанра (веселый, страшный, сумасшедший)</li>
+                                <li>- уютная зона отдыха после игры, чтобы прийти в себя</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="scripts-box__footer">
+                        <ul>
+                            <li>
+                                <div class="icon"><img src="img/size.png" alt=""></div>
+                                <p>60 минут игры</p>
+                            </li>
+                            <li>
+                                <div class="icon"><img src="img/user.png" alt=""></div>
+                                <p>От 3-ех психов в темноте</p>
+                            </li>
+                            <li>
+                                <div class="icon"><img src="img/time.png" alt=""></div>
+                                <p>Площадь до 250 кв.м</p>
+                            </li>
+                            <li>
+                                <div class="icon"><img src="img/house.png" alt=""></div>
+                                <p>Зона отдыха 30минут</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="btn btn-accent">оставить заявку</a>
+                </div></div>
+            </div>
+            
+            <div class="scripts-slider__nav slider-nav"></div>
+            <a href="#" class="btn btn-mobile btn-accent">оставить заявку</a>
+        </div>
+    </div>
+</section>
+
+<section class="question">
+    <div class="container">
+        <h2>“Вопрос-ответ”</h2>
+
+
+        <div class="question-wrapper">
+            <div class="panel_heading">
+                <div class="block_title">
+                    <h3>Это страшно?</h3>
+                </div>
+                <div class="block_hover">
+                    <p>Минимальное количество игроков - 12, максимальное - 250.</p>
+                </div>
+            </div>
+
+            <div class="panel_heading">
+                <div class="block_title">
+                    <h3>Это безопасно?</h3>
+                </div>
+                <div class="block_hover">
+                    <p>Минимальное количество игроков - 9, максимальное - 250.</p>
+                </div>
+            </div>
+
+            <div class="panel_heading in">
+                <div class="block_title">
+                    <h3>Какое максимальное и
+                        минимальное количествоигроков?</h3>
+                </div>
+                <div class="block_hover">
+                    <p>Минимальное количество игроков - 1, максимальное - 250.</p>
+                </div>
+            </div>
+
+            <div class="panel_heading">
+                <div class="block_title">
+                    <h3>Что делают актеры?</h3>
+                </div>
+                <div class="block_hover">
+                    <p>Минимальное количество игроков - 1, максимальное - 250.</p>
+                </div>
+            </div>
+
+            <div class="panel_heading">
+                <div class="block_title">
+                    <h3>Что есть в комнате отдыха?</h3>
+                </div>
+                <div class="block_hover">
+                    <p>Минимальное количество игроков - 1, максимальное - 250.</p>
+                </div>
+            </div>
+
+            <div class="panel_heading">
+                <div class="block_title">
+                    <h3>Что можно делать в комнатеотдыха?</h3>
+                </div>
+                <div class="block_hover">
+                    <p>Минимальное количество игроков - 1, максимальное - 250.</p>
+                </div>
+            </div>
+
+            <div class="panel_heading">
+                <div class="block_title">
+                    <h3>Где находятся наши игровыелокации?</h3>
+                </div>
+                <div class="block_hover">
+                    <p>Минимальное количество игроков - 1, максимальное - 250.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts" id="contacts">
+    <div class="container">
+        <h2>наши адреса</h2>
+
+        <div class="contacts-wrapper">
+            <div class="contacts-box">
+                <div class="icon"><img src="img/location.png" alt=""></div>
+                <div class="text">
+                    <h3>м. Беговая, 12:00 - 20:00</h3>
+                    <p>1-й Хорошевский пр-д, 4к1</p>
+                </div>
+            </div>
+            <div class="contacts-box">
+                <div class="icon"><img src="img/location.png" alt=""></div>
+                <div class="text">
+                    <h3>м. ВДНХ сб, вск 12:00 - 20:00</h3>
+                    <p>ул. Сергея Эйзенштейна, 2</p>
+                </div>
+            </div>
+            <div class="contacts-box">
+                <div class="icon"><img src="img/location.png" alt=""></div>
+                <div class="text">
+                    <h3>м. Проспект Мира, 12:00 - 20:00</h3>
+                    <p>Орлово-Давыдовский пер, дом 2/5, к2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="maps" id="map">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A70fb8afe982322b4fb842bd70fef938dd4ee848f28475f003e23fb595a081939&amp;source=constructor"></iframe>
+    </div>
+</section>
+
+<section class="callback">
+    <div class="container">
+        <h2>обратный звонок</h2>
+
+        <form method="post" class="form">
+            <div class="form-group">
+                <label><input type="text" name="name" placeholder="Имя"></label>
+                <label><input type="text" name="phone" placeholder="Телефон" required></label>
+            </div>
+            <button type="submit" class="btn btn-accent">оставить заявку</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-top">
+            <a href="#games" class="links-menu go_to">Наши игры</a>
+            <a href="#gallery" class="links-menu go_to">Галерея</a>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <a href="#price" class="links-menu go_to">Стоимость</a>
+            <a href="#contacts" class="links-menu go_to">Контакты</a>
+        </div>
+
+        <ul class="list-social">
+            <li><a href="#"><img src="img/vk.png" alt=""></a></li>
+            <li><a href="#"><img src="img/inst.png" alt=""></a></li>
+        </ul>
+
+        <a href="tel:+74992888275" class="phone links-mobile">+7 (499) 288-82-75</a>
+        <a href="mailto:manager@vtemnote.net" class="mail links-mobile">manager@vtemnote.net</a>
+    </div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script src="js/libs.min.js"></script>
+<script src="js/common.js"></script>
+
+
+</body>
+</html>
