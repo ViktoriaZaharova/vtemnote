@@ -25,7 +25,7 @@ $('.btn-details').click(function (e) {
 });
 
 $(window).on('load resize', function() {
-    if ($(window).width() < 1100) {
+    if ($(window).width() < 1101) {
         $('.price-slider:not(.slick-initialized)').slick({
             dots: true,
             infinite: false,
