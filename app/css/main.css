@@ -1228,7 +1228,7 @@ main {
 
 .maps {
   width: 100%;
-  height: 1080px;
+  height: 555px;
   position: relative;
   z-index: 1; }
   .maps iframe {
@@ -1361,7 +1361,11 @@ footer {
   display: none; }
 
 .slick-slide {
-  outline: none; }
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .slick-slide:hover, .slick-slide:focus {
+    outline: none; }
 
 .slick-dotted.slick-slider {
   margin-bottom: 0; }
@@ -1714,24 +1718,7 @@ footer {
 
 @media only screen and (max-width: 1540px) {
   .price-box {
-    width: 350px; }
-  .price-box__wrap {
-    height: 327px; }
-  .price-box__title {
-    font-size: 18px; }
-    .price-box__title h3 {
-      font-size: 30px; }
-  .price-box:hover .price-box__hover {
-    width: 450px;
-    height: 450px; }
-  .price-box:hover .btn-hover {
-    width: 300px;
-    height: 60px;
-    font-size: 18px; }
-  .price-box__hover-center {
-    margin: 20px 0 auto; }
-  .price-box__hover-top {
-    padding: 0; }
+    width: 450px; }
   .scripts:after {
     display: none; } }
 
@@ -1750,7 +1737,12 @@ footer {
     right: 18px;
     top: -50px;
     -webkit-transform: scale(-1, 1);
-            transform: scale(-1, 1); } }
+            transform: scale(-1, 1); }
+  .price-box {
+    width: 400px; }
+  .price-box:hover .price-box__hover {
+    width: 450px;
+    height: 450px; } }
 
 @media only screen and (max-width: 1300px) {
   .stages-event__box {
@@ -1763,6 +1755,27 @@ footer {
     left: -10px; }
   .gallery:after {
     right: 18px; } }
+
+@media only screen and (max-width: 1240px) {
+  .price-box {
+    width: 350px; }
+  .price-box__wrap {
+    height: 327px; }
+  .price-box__title {
+    font-size: 18px; }
+    .price-box__title h3 {
+      font-size: 30px; }
+  .price-box:hover .price-box__hover {
+    width: 450px;
+    height: 450px; }
+  .price-box:hover .btn-hover {
+    width: 300px;
+    height: 60px;
+    font-size: 18px; }
+  .price-box__hover-center {
+    margin: 20px 0 auto; }
+  .price-box__hover-top {
+    padding: 0; } }
 
 @media only screen and (max-width: 1200px) {
   .links-menu {
@@ -2335,7 +2348,7 @@ footer {
     .contacts-box h3 {
       font-size: 15px; }
   .maps {
-    height: 520px; }
+    height: 420px; }
   footer {
     padding: 28px 0 23px; }
     footer .logo {
@@ -2384,8 +2397,8 @@ footer {
 
 @media only screen and (max-width: 440px) {
   .games-photo__box {
-    width: 80px;
-    height: 80px; }
+    width: 110px;
+    height: 110px; }
   .tabs__caption {
     width: 100%;
     padding: 0; }
@@ -2440,3 +2453,13 @@ footer {
         width: 20px; }
   .home-page__box-wrap {
     width: 100%; } }
+
+@media only screen and (max-width: 360px) {
+  .games-photo__box {
+    width: 100px;
+    height: 100px; } }
+
+@media only screen and (max-width: 340px) {
+  .games-photo__box {
+    width: 95px;
+    height: 95px; } }
