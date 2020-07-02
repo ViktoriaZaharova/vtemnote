@@ -427,15 +427,15 @@ main {
       height: 485px;
       opacity: 1;
       visibility: visible; }
-    .price-box__open .price-box__wrap .btn {
-      display: none; }
-    .price-box__open .price-box__wrap .btn-hover {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      width: 388px;
-      height: 78px;
-      font-size: 25px; }
+  .price-box__open .btn {
+    display: none; }
+  .price-box__open .btn-hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 388px;
+    height: 78px;
+    font-size: 25px; }
 
 .price-box__wrap {
   position: relative;
