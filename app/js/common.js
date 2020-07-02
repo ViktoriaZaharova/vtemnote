@@ -14,6 +14,14 @@ $('.go_to').click(function () {
     return false;
 });
 
+
+$(".go_to-links").on('click', '[href*="#"]', function(e){
+    e.preventDefault();
+    var fixed_offset = $('.mobile-menu').height();
+    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+});
+
+
 $('.panel_heading .block_title').click(function () {
     $('.panel_heading').removeClass('in');
     $(this).parents('.panel_heading').addClass('in');
@@ -22,6 +30,11 @@ $('.panel_heading .block_title').click(function () {
 $('.btn-details').click(function (e) {
     e.preventDefault();
     $(this).siblings('.price-box').find('.price-box__hover').fadeIn();
+});
+
+$('.price-box').hover(function () {
+    $('.price-box').removeClass('price-box__open')
+    $(this).toggleClass('price-box__open');
 });
 
 $(window).on('load resize', function() {

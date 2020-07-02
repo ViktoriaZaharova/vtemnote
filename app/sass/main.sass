@@ -351,10 +351,16 @@ main
   color: #fff
   cursor: pointer
   margin: 0 0 55px
-  &:hover
-    opacity: 1
-    .price-box__wrap
-      margin: 0 0 40px
+
+  .btn
+    width: 266px
+    height: 54px
+    font-size: 18px
+
+.price-box__open
+  opacity: 1
+  .price-box__wrap
+    margin: 0 0 40px
     .price-box__hover
       width: 707px
       height: 485px
@@ -367,10 +373,6 @@ main
       width: 388px
       height: 78px
       font-size: 25px
-  .btn
-    width: 266px
-    height: 54px
-    font-size: 18px
 
 .price-box__wrap
   position: relative
@@ -1127,7 +1129,7 @@ footer
 .links-mobile
   display: none
 
-.slick-slide
+.slick-slide, .slide
   outline: none
   box-shadow: none
   &:hover, &:focus
